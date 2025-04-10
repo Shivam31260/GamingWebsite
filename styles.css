@@ -1,0 +1,120 @@
+/* style.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #0d6efd;
+}
+
+/* Hero Section */
+header {
+    background: linear-gradient(to right, #343a40, #495057);
+    color: white;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+header .btn {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+}
+
+/* Search Bar */
+.input-group {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Featured Games Section */
+#features {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem 0;
+}
+
+#features h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 2rem;
+}
+.card {
+    width: 100%; /* Adjust the width, e.g., 100% of its container or a specific value like 400px */
+    height: 100%; /* Adjust height as needed */
+    padding: 1.5rem; /* Optional: Increase padding inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Make the card more prominent */
+    border-radius: 15px; /* Optional: Adjust border radius for rounded corners */
+    transition: transform 0.3s ease; /* Optional: Add a hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Optional: Slightly enlarge the card on hover */
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 0.5rem;
+}
+
+.card-body ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.card-body ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
